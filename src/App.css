@@ -1,5 +1,8 @@
 .App {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .App-logo {
@@ -35,4 +38,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.time-series-list {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin-right: 16px;
+  border-radius: 4px;
+}
+
+.scatter-plot-matrix {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 16px;
+  border-radius: 4px;
 }

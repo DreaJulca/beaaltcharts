@@ -6,6 +6,7 @@ interface TimeSeriesListProps {
     selectedTimeSeries: string[]; // Define the type for selectedTimeSeries
     onAddTimeSeries: (seriesCode: string) => void;
     onRemoveTimeSeries: (seriesCode: string) => void;
+    className?: string; // Define the className prop    
   }
 
 const TimeSeriesItem: React.FC<{ seriesCode: string }> = ({ seriesCode }) => {
